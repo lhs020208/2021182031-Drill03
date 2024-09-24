@@ -47,9 +47,9 @@ def run_left():
     
 def run_rectangle():
     print('rect')
-    #run_top()
-    #run_right()
-    #run_bottom()
+    run_top()
+    run_right()
+    run_bottom()
     run_left()
     pass
     
@@ -62,20 +62,20 @@ def run_rightup():
 def run_rightdown():
     for step in range(800//2,800,10):
         x = step
-        y = (800)-step
+        y = 800-step
         draw_boy(x,y)
     print('rightdown')
     pass
     
 def run_triangle():
-    #run_bottom()
-    #run_rightup()
+    run_bottom()
+    run_rightup()
     run_rightdown()
     pass
 
 while(True):
-    #run_circle()
-    #run_rectangle()
+    run_circle()
+    run_rectangle()
     run_triangle()
     break
 
