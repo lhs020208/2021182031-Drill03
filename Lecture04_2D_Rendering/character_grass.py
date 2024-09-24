@@ -60,12 +60,16 @@ def run_rightup():
     pass
     
 def run_rightdown():
+    for step in range(800//2,800,10):
+        x = step
+        y = (800)-step
+        draw_boy(x,y)
     print('rightdown')
     pass
     
 def run_triangle():
     #run_bottom()
-    run_rightup()
+    #run_rightup()
     run_rightdown()
     pass
 
