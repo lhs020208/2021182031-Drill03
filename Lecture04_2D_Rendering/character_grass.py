@@ -52,10 +52,25 @@ def run_rectangle():
     #run_bottom()
     run_left()
     pass
+    
+def run_rightup():
+    print('rightup')
+    pass
+    
+def run_rightdown():
+    print('rightdown')
+    pass
+    
+def run_triangle():
+    run_bottom()
+    run_rightup()
+    run_rightdown()
+    pass
 
 while(True):
     #run_circle()
-    run_rectangle()
+    #run_rectangle()
+    run_triangle()
     break
 
 close_canvas()
